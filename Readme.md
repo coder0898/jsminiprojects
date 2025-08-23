@@ -4,4 +4,5 @@ It is collection of the mini javascript project i created to learn javascript an
 
 ### List.
 
-1. backgroundColor(randomly change background color on click)
+1. backgroundColor(randomly change background color on click).
+2. Number Guessing Game.
