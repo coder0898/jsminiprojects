@@ -7,3 +7,5 @@ It is collection of the mini javascript project i created to learn javascript an
 1. backgroundColor(randomly change background color on click).
 2. Number Guessing Game.
 3. Temperature Conversion
+4. Tabs using JavaScript.
+5. Vertical Tabs using JavaScript.

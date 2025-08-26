@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+
+html,body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #1F75FE;
+}
+
+.container{
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    max-height: 400px;
+    display: flex;
+}
+
+.tab-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+    background-color: #f5f5f5;
+}
+
+.tab{
+    height: 130px;
+    width: 120px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab.active{
+    background-color: #fff;
+    color: #1F75FE;
+}
+
+.tab span{
+    margin-right: 10px;
+}
+
+.content{
+    padding: 30px;
+    display: none;
+}
+
+.content.active{
+    display: block;
+}
+
+.content h3{
+    font-size: 1.4rem;
+    color: #1F75FE;
+    margin-bottom: 10px;
+}
+
+.content p{
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.content ul li{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.content ol li{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+ol li::marker {
+  font-weight: 700;
+}

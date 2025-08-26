@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tab using JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="tab-buttons">
+        <button class="tab active">
+          <span><i class="fa-brands fa-html5"></i></span>HTML
+        </button>
+        <button class="tab">
+          <span><i class="fa-brands fa-css3"></i></span>CSS
+        </button>
+        <button class="tab">
+          <span><i class="fa-brands fa-square-js"></i></span>JAVASCRIPT
+        </button>
+      </div>
+      <div class="content active">
+        <h3>What is HTML?</h3>
+        <ol>
+          <li>HTML stands for Hyper Text Markup Language</li>
+          <li>HTML is the standard markup language for creating Web pages</li>
+          <li>HTML describes the structure of a Web page</li>
+          <li>HTML consists of a series of elements</li>
+          <li>HTML elements tell the browser how to display the content</li>
+          <li>
+            HTML elements label pieces of content such as "this is a heading",
+            "this is a paragraph", "this is a link", etc.
+          </li>
+        </ol>
+      </div>
+      <div class="content">
+        <h3>What is CSS?</h3>
+        <p>CSS is the language we use to style a Web page.</p>
+        <ol>
+          <li>CSS stands for Cascading Style Sheets</li>
+          <li>
+            CSS describes how HTML elements are to be displayed on screen,
+            paper, or in other media
+          </li>
+          <li>
+            CSS saves a lot of work. It can control the layout of multiple web
+            pages all at once
+          </li>
+          <li>External stylesheets are stored in CSS files</li>
+        </ol>
+      </div>
+      <div class="content">
+        <h3>What is JavaScript?</h3>
+        <ul>
+          <li>
+            JavaScript (JS) is a lightweight interpreted (or just-in-time
+            compiled) programming language with first-class functions.
+          </li>
+          <li>
+            While it is most well-known as the scripting language for Web pages,
+            many non-browser environments also use it, such as Node.js, Apache
+            CouchDB and Adobe Acrobat.
+          </li>
+          <li>
+            JavaScript is a prototype-based, garbage-collected, dynamic
+            language, supporting multiple paradigms such as imperative,
+            functional, and object-oriented.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
