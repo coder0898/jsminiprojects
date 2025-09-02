@@ -11,3 +11,4 @@ It is collection of the mini javascript project i created to learn javascript an
 5. Vertical Tabs using JavaScript.
 6. Age Calculator in JavaScript.
 7. Expense in JavaScript.
+8. Custom File Upload button in JavaScript.
